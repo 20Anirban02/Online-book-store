@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: bisque;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.boxA,.boxB,.boxC{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: bisque;
+}
+
+.A{
+    height: 450px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
+
+.imgA{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+}
+
+.content_A{
+margin-left: 3rem;
+margin-right: 3rem;
+}
+
+.price{
+    text-align: right;
+}
+
